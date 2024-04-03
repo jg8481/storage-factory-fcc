@@ -6,7 +6,7 @@ import "./SimpleStorage.sol";
 
 contract StorageFactory {
 
-// Examples in this code focuses on importing code and code inheritance
+// Examples in this code focuses on importing code and code inheritance, and also demonstrates how contracts can deploy other contracts (through import)
     
     SimpleStorage[] public simpleStorageArray;
     
